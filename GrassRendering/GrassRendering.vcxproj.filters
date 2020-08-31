@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{a6b3ccc3-58a3-4ffb-959f-b1d4c607beec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\HighmapRead">
+      <UniqueIdentifier>{13dc0769-02f4-4f23-9b3f-80776f37d8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grass">
+      <UniqueIdentifier>{dafe1786-c408-4319-a569-a4435e81c19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glsl">
+      <UniqueIdentifier>{f66eca6b-4c53-4e3e-bc45-d550b39fb83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glsl\tesc">
+      <UniqueIdentifier>{f1f5ff04-0fcd-4bd7-9b76-c164e96f2d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glsl\tese">
+      <UniqueIdentifier>{420634a4-7241-4d0b-8e7d-827a8bd062d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glsl\vert">
+      <UniqueIdentifier>{23da2fa4-b552-4d31-9729-83bd2beb7d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glsl\frag">
+      <UniqueIdentifier>{7becd7ca-223b-45b2-ad8d-8791271a5977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glsl\geom">
+      <UniqueIdentifier>{6ce8c7ba-731c-473e-ae7a-8123e2f7964c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_m.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassGenerate.h">
+      <Filter>Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamConfiguration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassRendering.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_im.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="HighMapLoad.h">
+      <Filter>Base\HighmapRead</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassGenerate.cpp">
+      <Filter>Grass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="nanosuit.frag">
+      <Filter>glsl\frag</Filter>
+    </None>
+    <None Include="nanosuit.vert">
+      <Filter>glsl\vert</Filter>
+    </None>
+    <None Include="terrain.frag">
+      <Filter>glsl\frag</Filter>
+    </None>
+    <None Include="terrain.vert">
+      <Filter>glsl\vert</Filter>
+    </None>
+    <None Include="grass.frag">
+      <Filter>glsl\frag</Filter>
+    </None>
+    <None Include="grass.vert">
+      <Filter>glsl\vert</Filter>
+    </None>
+    <None Include="grass.tese">
+      <Filter>glsl\tese</Filter>
+    </None>
+    <None Include="grass.tesc">
+      <Filter>glsl\tesc</Filter>
+    </None>
+    <None Include="grassground.vert">
+      <Filter>glsl\vert</Filter>
+    </None>
+    <None Include="grassground.frag">
+      <Filter>glsl\frag</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\highmap.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\LavaLand.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Rockyground.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
